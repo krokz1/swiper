@@ -1,0 +1,53 @@
+
+:root {
+
+    --font-family: 'TTLakes';
+
+    --color-title: #1B1C21;
+    --color-title-accent: #7E7E82;
+    --color-text: #1B1C21;
+    --color-text-accent: #7E7E82;
+    --color-link: #7E7E82;
+    --color-link-accent: #1B1C21;
+    --color-link-modal: #FF3E79;
+    --color-button: #FFFFFF;
+    --color-border-link-activ: #B8FFEC;
+    --color-border-card: #EAEAEA;
+    --color-border-bottom: #D9FFF5;
+
+    
+    --background-color: #F8F8F8;
+    --background-color-accent: #fff;
+    --background-color-button: #FF3E79;
+    --background-color-header-decor-line: #EAEAEA;
+    --background-color-border-bottom: #D9FFF5;
+    --background-color-decor-left-menu: #41F6D7;
+    --background-color-decor-button: #41F6D7;
+    --background-color-decor-button-accent: #FF3E79;
+    --background-color-decor-button-contrast: #FFFFFF;
+    --background-color-check-slider: #DDDDDD;
+    --background-color-check-slider-activ: #B5B6BC;
+
+    --border-activ-link: 2px solid var(--color-border-link-activ);
+    --border-card: 1px solid var(--color-border-card);
+    --border-bottom: 1px solid var(--color-border-bottom);
+    --border-card-button: 2px solid var(--color-link-modal);
+
+    --padding-inline: 1rem;
+
+    --linear-gradient: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+
+
+}
+
+@media (width>767px) {
+    :root {
+        --padding-inline: 1.5rem;
+    }
+}
+
+@media (width>1440px) {
+    :root {
+        --padding-inline: 2rem;
+    }
+}
