@@ -3,7 +3,7 @@
 
     --font-family: 'TTLakes';
 
-    --color-title: #1B1C21;
+    --color-title:#1B1C21;
     --color-title-accent: #7E7E82;
     --color-text: #1B1C21;
     --color-text-accent: #7E7E82;
@@ -11,9 +11,12 @@
     --color-link-accent: #1B1C21;
     --color-link-modal: #FF3E79;
     --color-button: #FFFFFF;
+    --color-price-button:#1B1C21;
     --color-border-link-activ: #B8FFEC;
     --color-border-card: #EAEAEA;
     --color-border-bottom: #D9FFF5;
+    --color-box-shadow-modal: #0E185033;
+    --color-box-shadow-modal-accent: #454F7E05;
 
     
     --background-color: #F8F8F8;
@@ -27,11 +30,17 @@
     --background-color-decor-button-contrast: #FFFFFF;
     --background-color-check-slider: #DDDDDD;
     --background-color-check-slider-activ: #B5B6BC;
+    --background-color-border-modal-left: #D9FFF5;
 
     --border-activ-link: 2px solid var(--color-border-link-activ);
     --border-card: 1px solid var(--color-border-card);
     --border-bottom: 1px solid var(--color-border-bottom);
     --border-card-button: 2px solid var(--color-link-modal);
+    --boder-bottom-table: 1px solid var(--color-border-card);
+    --border-modal-input: 1px solid var(--color-border-card);
+    --border-modal-left: 1px solid var(--background-color-border-modal-left);
+
+    --box-shadow-modal: 1rem 0px 3.25rem 0px var(--color-box-shadow-modal), -0.125rem 0px 0.25rem 0px var(--color-box-shadow-modal-accent);
 
     --padding-inline: 1rem;
 
