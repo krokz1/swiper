@@ -93,16 +93,30 @@
   margin-inline: 3.625rem;
 }
 
-.refurbished-brands__button {
-  display: none;
-}
-
 .card-button {
   position: relative;
   padding-inline: 1.125rem;
   padding-block: 1.125rem;
   border: var(--border-card-button);
   border-radius: 50%;
+}
+
+.card-button:hover {
+  border: 2px solid #000;
+}
+
+.card-button:active {
+  opacity: 0.5;
+}
+
+.card-button:focus {
+  outline: 2px solid #000;
+  outline-offset: 0.125rem;
+}
+
+.card-button:focus-visible {
+  outline: 2px solid #000;
+  outline-offset: 0.125rem;
 }
 
 .card-button::after {
@@ -125,6 +139,28 @@
   left: 1.125rem;
   background-color: var(--background-color-decor-button-accent);
   transform: rotate(223deg);
+}
+
+.refurbished-brands__button {
+  display: none;
+}
+
+.refurbished-brands__button:hover {
+  text-decoration: underline;
+}
+
+.refurbished-brands__button:active {
+  color: var(--color-border-link-activ);
+}
+
+.refurbished-brands__button:focus {
+  outline: 2px solid #000;
+  outline-offset: 0.125rem;
+}
+
+.refurbished-brands__button:focus-visible {
+  outline: 2px solid #000;
+  outline-offset: 0.125rem;
 }
 
 .refurbished-brands__button.section__read-more-button::after {
